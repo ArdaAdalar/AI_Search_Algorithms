@@ -63,7 +63,7 @@ python searchAgents.py -l <layout_name> -p <algorithm_name>
 Replace <layout_name> with the problem environment (e.g., tinyMaze) and <algorithm_name> with the desired algorithm (e.g., bfs, dfs, ucs, or astar).
 
 Features
-Core Algorithms
+## Clone This Repository
 
 Breadth-First Search (BFS):
 Explores nodes layer by layer.
