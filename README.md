@@ -62,8 +62,11 @@ To test the algorithms on predefined problems, run:
 python searchAgents.py -l <layout_name> -p <algorithm_name>
 Replace <layout_name> with the problem environment (e.g., tinyMaze) and <algorithm_name> with the desired algorithm (e.g., bfs, dfs, ucs, or astar).
 
+-----------------
 Features
-## Clone This Repository
+-----------------
+
+## Core Algorithms
 
 Breadth-First Search (BFS):
 Explores nodes layer by layer.
