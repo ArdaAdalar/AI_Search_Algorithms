@@ -55,37 +55,35 @@ git clone https://github.com/ArdaAdalar/AI_Search_Algorithms.git
 Running Tests
 To verify the correctness of the search algorithms:
 
-bash
-Kodu kopyala
 python searchTest.py
 Using the Search Agents
 To test the algorithms on predefined problems, run:
 
-bash
-Kodu kopyala
 python searchAgents.py -l <layout_name> -p <algorithm_name>
 Replace <layout_name> with the problem environment (e.g., tinyMaze) and <algorithm_name> with the desired algorithm (e.g., bfs, dfs, ucs, or astar).
 
 Features
 Core Algorithms
-Breadth-First Search (BFS):
 
+Breadth-First Search (BFS):
 Explores nodes layer by layer.
 Guarantees shortest path in unweighted graphs.
-Depth-First Search (DFS):
 
+Depth-First Search (DFS):
 Explores as deeply as possible before backtracking.
 May not guarantee shortest path.
-Uniform Cost Search (UCS):
 
+Uniform Cost Search (UCS):
 Expands the least-cost node.
 Guarantees optimal path in weighted graphs.
-A Search*:
 
+A Search*:
 Uses heuristics to guide the search.
 Guarantees optimal path if heuristic is admissible and consistent.
-Custom Heuristics
+
+Custom Heuristics:
 Designed for specific problem domains to reduce search time and unnecessary expansions.
+
 Files Included
 search.py: Core search algorithm implementations.
 searchAgents.py: Problem spaces and agents for testing.
