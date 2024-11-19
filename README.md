@@ -1,5 +1,5 @@
 ====================================
-AI_Search_Algorithms
+AI_Search_Algorithms 🤖
 ====================================
 
 This project implements fundamental search algorithms including BFS, DFS, UCS, and A*. 
@@ -42,7 +42,7 @@ Key Files and Modules
 - **README.txt**: Documentation for the project.
 
 ------------
-How to Run
+How to Run 🚀
 ------------
 
 ## Clone This Repository
@@ -63,10 +63,10 @@ python searchAgents.py -l <layout_name> -p <algorithm_name>
 Replace <layout_name> with the problem environment (e.g., tinyMaze) and <algorithm_name> with the desired algorithm (e.g., bfs, dfs, ucs, or astar).
 
 -----------------
-Features
+Features ✨
 -----------------
 
-## Core Algorithms
+## Core Algorithms 🧠
 
 Breadth-First Search (BFS):
 Explores nodes layer by layer.
@@ -87,7 +87,7 @@ Guarantees optimal path if heuristic is admissible and consistent.
 Custom Heuristics:
 Designed for specific problem domains to reduce search time and unnecessary expansions.
 
-Files Included
+## Core Files 📚 
 search.py: Core search algorithm implementations.
 searchAgents.py: Problem spaces and agents for testing.
 README.md: Project documentation.
